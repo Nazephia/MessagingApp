@@ -1,0 +1,20 @@
+# Archivos compilados
+build/
+*.o
+*.d
+*.a
+*.so
+
+# Datos generados en tiempo de ejecución (se regeneran con `make run`)
+data/*.csv
+
+# Copias de seguridad
+*.bak
+*.orig
+
+# Editores y sistema
+.vscode/
+.idea/
+.zed/
+*.swp
+.DS_Store
